@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*add style to background*/
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/background\ image.webp');
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.logo {
+    background-image: url('../images/logo.png');
+}
