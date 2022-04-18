@@ -7,15 +7,36 @@
 .container {
     height: 100vh;
     width: 100%;
-    background-image: url('../images/background\ image.webp');
+    background-image: url('../images/background-image.webp');
     background-position: center;
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
     box-sizing: border-box;
     position: relative;
+
+
+}
+/*add style to navbar*/
+.navbar{
+    width: 100%;
+    height:15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+/*add style to logo*/
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+/*add style to cart*/
+.cart{
+    width: 60px;
+    cursor: pointer;
 }
 
-.logo {
-    background-image: url('../images/logo.png');
+.nav{flex: 1;
+    
+
 }
