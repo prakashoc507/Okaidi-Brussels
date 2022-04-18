@@ -7,7 +7,7 @@
 .container {
     height: 100vh;
     width: 100%;
-    background-image: url('../images/background-image.webp');
+    background-image: url('../images/baby-background.jpg');
     background-position: center;
     background-size: cover;
     padding-left: 5%;
@@ -93,13 +93,20 @@ nav ul li a {
     }
 
     .arrow-icons{
-        margin-top: 40px;
+        float: left;
+        display: inline-block;
+        margin-top: 80px;
         display: flex;
+        margin-right: 0px;
     }
 
     .arrow-icons img{
         width: 40px;
-        margin-right: 25;
+        margin-right: 35px;
     }
 
+    .social-links{
+        
+
+    }
     
