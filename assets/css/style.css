@@ -59,6 +59,7 @@ nav ul li a {
     text-decoration: none;
     color: #333;
 }
+
 /*give style to content elements */
 .content h1 {
     font-size: 80px;
@@ -78,4 +79,17 @@ nav ul li a {
 
 .content {
     margin: 10%;
-    margin-left: 10%;
+    margin-left: 10%;}
+
+    .content .btn{
+        display: inline-block;
+        background: linear-gradient(45deg, #87adfe, #ff77cd);
+        border-radius: 6px;
+        padding: 15px 20px;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: #fff;
+        box-shadow:3px 8px 22px rgba(94,28,68,0.15) ;
+    }
+
+    
