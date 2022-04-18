@@ -92,4 +92,14 @@ nav ul li a {
         box-shadow:3px 8px 22px rgba(94,28,68,0.15) ;
     }
 
+    .arrow-icons{
+        margin-top: 40px;
+        display: flex;
+    }
+
+    .arrow-icons img{
+        width: 40px;
+        margin-right: 25;
+    }
+
     
