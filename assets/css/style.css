@@ -27,6 +27,22 @@
     align-items: center;
 
 }
+/* style navigation links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+    font: rgb(55, 38, 163);
+}
+
+#menu a:hover{
+border-bottom: 1px solid #333;
+}
 
 /*add style to logo*/
 .logo {
@@ -34,11 +50,6 @@
     cursor: pointer;
 }
 
-/*add style to cart*/
-.cart {
-    width: 60px;
-    cursor: pointer;
-}
 
 /*give style to nav elements and set menu links inline*/
 nav {
@@ -94,7 +105,7 @@ nav ul li a {
 }
 /*for arrow icons*/
 .arrow-icons {
-    float: left;
+    float:left;
     display: inline-block;
     margin-top: 80px;
     display: flex;
