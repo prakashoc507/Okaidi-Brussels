@@ -15,7 +15,7 @@
 
 <body>
 
-    <div class="signup-page">
+    <div class="signup">
         <!--add navbar for logo and menu links-->
         <div class="navbar">
             <img src="assets/images/logo.png" alt="logo" class="logo">
@@ -27,15 +27,43 @@
                     <li>
                         <a href="collection.html">Trending Designs</a>
                     </li>
-                    <li class="signup-page">
-                        <a href="signup.html" class="active">Sign Up</a>
+                    <a href="signup.html" class="active">Sign Up</a>
                     </li>
+
+                    <div>
+                        <P>To get latest news about our designs, subscribe to our new letters.</P>
+                        <form method="post" class="signup-form">
+                            <label for="fname">First Name</label>
+                            <input id="fname" name="First name" type="text" required>
+
+                            <label for="lname">Last Name</label>
+                            <input id="lname" name="last name" type="text" required>
+
+                            <label for="email">Email Address</label>
+                            <input id="fname" name="firs name" type="text" required>
+
+                            <label for="daily">Daily</label>
+                            <input type="radio" id="daily" name="basis_type" value="daily" required>
+                            <label for="weekly">Weekly</label>
+                            <input type="radio" id="weekly" name="basis_type" value="weekly" required>
+                            <label for="monthly">Monthly</label>
+                            <input type="radio" id="monthly" name="basis_type" value="monthly" required>
+
+                            <input class="subscribe-button" type="submit" value="Subscribe">
+
+
+                    </div>
+
+
+
+                    </form>
+
                 </ul>
             </nav>
 
-            <!--add div for collection button and add arrow image/button to switch page -->
+
         </div>
-        
+
         <footer>
             <div class="social-links">
 
