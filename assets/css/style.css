@@ -159,14 +159,52 @@ nav ul li a {
     padding-right: 20px;
     font-size: 18px;
     margin-top: 20px;
-
-
 }
 
 .social-links a:hover{
     border-bottom: 1px solid #7e6a99;
 }
 
+/*style to h2 and h3 element in collection.html*/
+h2{
+    font-size: 30px;
+    font-weight: 110;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #232d60;
+    margin-left: 35%;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 90;
+    margin-left: 30%;
+    margin-top: 15px;
+    color: #232d60;
+}
+
+/*style collection button*/
+
+#collection {
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 3px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    display: inline-block;
+    margin-left: 45%;
+    
+}
+
+#collection a{
+    text-decoration: none;    
+}
+
+#collection a:hover{
+    border-bottom: 1px solid #232d60;    
+}
 
 
 
