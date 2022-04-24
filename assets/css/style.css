@@ -37,11 +37,15 @@
     float: left;
     list-style-type: none;
     margin-right: 30px;
-    font: rgb(55, 38, 163);
+    
 }
 
 #menu a:hover{
 border-bottom: 1px solid #333;
+}
+
+.active {
+    border-bottom: 1px solid #333;
 }
 
 /*add style to logo*/
@@ -71,6 +75,8 @@ nav ul li a {
     color: #333;
 }
 
+
+
 /*give style to content elements */
 .content h1 {
     font-size: 80px;
@@ -92,7 +98,7 @@ nav ul li a {
     margin: 10%;
     margin-left: 10%;
 }
-
+/*style collection button*/
 .content .btn {
     display: inline-block;
     background: linear-gradient(45deg, #87adfe, #ff77cd);
@@ -103,6 +109,12 @@ nav ul li a {
     color: #fff;
     box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
 }
+
+.content a:hover{
+    border-bottom: 1px solid #7e6a99;
+}
+
+
 /*for arrow icons*/
 .arrow-icons {
     float:left;
@@ -129,6 +141,14 @@ nav ul li a {
     color: #7e6a99;
     padding-right: 20px;
     font-size: 18px;
+    margin-top: 20px;
 
 
 }
+
+.social-links a:hover{
+    border-bottom: 1px solid #7e6a99;
+}
+
+
+
