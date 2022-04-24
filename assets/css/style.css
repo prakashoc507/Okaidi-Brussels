@@ -114,6 +114,23 @@ nav ul li a {
     border-bottom: 1px solid #7e6a99;
 }
 
+/*style images*/
+#designs img {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+
+#designs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
 
 /*for arrow icons*/
 .arrow-icons {
@@ -149,6 +166,8 @@ nav ul li a {
 .social-links a:hover{
     border-bottom: 1px solid #7e6a99;
 }
+
+
 
 
 
