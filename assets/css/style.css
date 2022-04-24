@@ -134,7 +134,7 @@ nav ul li a {
 
 /*for arrow icons*/
 .arrow-icons {
-    float:left;
+    
     display: inline-block;
     margin-top: 80px;
     display: flex;
