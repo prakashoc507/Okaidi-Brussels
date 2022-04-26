@@ -38,22 +38,24 @@
 
 }
 
+#menu a {
+    color: #fff;
+}
+
 #menu li {
     float: left;
     list-style-type: none;
     margin-right: 30px;
     float: right;
 
-
-
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #fff;
 }
 
 .active {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #fff;
 }
 
 
@@ -92,14 +94,14 @@ nav ul li a {
     font-weight: 110;
     margin-top: 30px;
     margin-bottom: 15px;
-    color: #232d60;
+    color: #fc766aff;
 
 }
 
 .content p {
     font-size: 25px;
     font-weight: 110;
-    color: #6a7199;
+    color: #e94b3c;
 
 }
 
@@ -125,26 +127,58 @@ nav ul li a {
 }
 
 /*style images*/
-#designs img {
-    max-width: 300px;
-    max-height: 300px;
-    margin: 5px;
-    border-radius: 5px;
+#gallery {
+    margin: auto;
+    background: fixed;
+    display: block;
 
 }
 
-#designs {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+/*first image*/
+#gallery .image-box img {
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+    border-radius: 5px;
+    float: right;
 
+}
+
+.image-box > p {
+    float: right;
+}
+
+/*second image*/
+#gallery .image-box1 img {
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+    border-radius: 5px;
+    float: left;
+
+}
+
+.image-box1 > p {
+    float: left;
+    color: red;
+}
+
+/*Third image*/
+
+#gallery .image-box2 img {
+    max-width: 400px;
+    max-height: 400px;
+    margin top: auto;
+    border-radius: 5px;
+    float: right;
+}
+
+.image-box2 > p {
+    float: right;
 }
 
 /*for arrow icons*/
 .arrow-icons {
-
     display: inline-block;
     margin-top: 80px;
     display: flex;
@@ -180,21 +214,14 @@ nav ul li a {
 
 /*style to h2 and h3 element in collection.html*/
 h2 {
-    font-size: 30px;
-    font-weight: 110;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    color: #232d60;
-    margin-left: 35%;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 40px;
+    font-family: sans-serif;
 }
 
-h3 {
-    font-size: 25px;
-    font-weight: 90;
-    margin-left: 30%;
-    margin-top: 15px;
-    color: #232d60;
-}
+
+
 
 /*style collection button*/
 
