@@ -127,55 +127,23 @@ nav ul li a {
 }
 
 /*style images*/
-#gallery {
-    margin: auto;
-    background: fixed;
-    display: block;
-
+#gallery{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    margin-top: 5px;
+    
 }
 
-/*first image*/
-#gallery .image-box img {
-    max-width: 400px;
-    max-height: 400px;
-    margin: auto;
-    border-radius: 5px;
-    float: right;
-
+#gallery img{
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    margin-right: 3px;
 }
 
-.image-box > p {
-    float: right;
-}
 
-/*second image*/
-#gallery .image-box1 img {
-    max-width: 400px;
-    max-height: 400px;
-    margin: auto;
-    border-radius: 5px;
-    float: left;
 
-}
-
-.image-box1 > p {
-    float: left;
-    color: red;
-}
-
-/*Third image*/
-
-#gallery .image-box2 img {
-    max-width: 400px;
-    max-height: 400px;
-    margin top: auto;
-    border-radius: 5px;
-    float: right;
-}
-
-.image-box2 > p {
-    float: right;
-}
 
 /*for arrow icons*/
 .arrow-icons {
