@@ -7,7 +7,7 @@
 
 /*add style to background*/
 .container {
-    height: 100vh;
+    min-height: 100%;
     width: 100%;
     background-image: url('../images/pic12.jpg');
     background-position: center;
@@ -132,6 +132,10 @@ nav ul li a {
     height: 100%;
     display:flex;
     margin-top: 5px;
+    flex-wrap: wrap;
+    display: block;
+    margin-left: 10px;
+    column-count: 2;
     
 }
 
@@ -139,10 +143,10 @@ nav ul li a {
     height: 400px;
     width: 400px;
     display: inline-block;
-    margin-right: 3px;
+    margin-right: 50px;
+    
+    
 }
-
-
 
 
 /*for arrow icons*/
