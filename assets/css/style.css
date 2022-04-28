@@ -96,19 +96,23 @@ nav ul li a {
 
 
 /*give style to content elements */
+
 .content h1 {
     font-size: 80px;
     font-weight: 110;
     margin-top: 30px;
     margin-bottom: 15px;
-    color: #fc766aff;
+    color: rgba(65, 83, 236, 0.815);
 
 }
 
 .content p {
     font-size: 25px;
     font-weight: 110;
-    color: #e94b3c;
+    color: #f7f3f2dc;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 5em;
+    width: 56%;
 
 }
 
@@ -219,21 +223,6 @@ nav ul li a {
     border-radius: 8px;
     width: 98%;
     margin-top: 3px;
-}
-
-
-
-/*for arrow icons*/
-.arrow-icons {
-    display: inline-block;
-    margin-top: 80px;
-    display: flex;
-    margin-right: 0px;
-}
-
-.arrow-icons img {
-    width: 40px;
-    margin-right: 35px;
 }
 
 /*style for social links*/
