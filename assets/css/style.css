@@ -136,13 +136,13 @@ nav ul li a {
 /*style images*/
 #gallery {
     width: 100%;
-    height: 100%;
-    display: flex;
-    margin-top: 5px;
+    height: 100%;    
     flex-wrap: wrap;
     display: block;
-    margin-left: 10px;
+    margin-left: 15em;
     column-count: 1;
+    
+    
 
 }
 
@@ -152,6 +152,7 @@ nav ul li a {
     padding: 5px;
     filter: grayscale(100%);
     transition: 1s;
+    border-radius: 10px;
 
 }
 
@@ -178,7 +179,7 @@ nav ul li a {
     background: #e15050db;
     border-radius: 10cm;
     width: 40%;
-    margin: auto;    
+    margin: auto;
 
 }
 
@@ -190,16 +191,16 @@ nav ul li a {
     color: white;
     background-color: #021f0859;
     border-radius: 12px;
-    
+
 
 
 }
 
-#history img{
+#history img {
     border-radius: 1em;
 }
 
-#history ul{
+#history ul {
     background: #021f0859;
     color: white;
     margin: auto;
@@ -225,10 +226,9 @@ nav ul li a {
 
 /*style for social links*/
 .social-links {
-    margin-left: 50%;
-    position: flex;
-    left: -80px;
-    bottom: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social-links a {
@@ -284,6 +284,8 @@ nav ul li a {
 }
 
 /*signup details*/
+
+
 .form-section {
     width: 350px;
     height: 500px;
@@ -292,7 +294,7 @@ nav ul li a {
 }
 
 .form-section,
-.form-section>form {
+.form-section > form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
