@@ -221,7 +221,7 @@ nav ul li a {
 }
 
 /*style to h2 and h3 element in collection.html*/
-h2 {
+.collection {
     text-align: center;
     margin-top: 5px;
     font-size: 40px;
@@ -270,7 +270,8 @@ h2 {
     justify-content: space-between;
     padding: 40px 100px 40px 20px;
     border-radius: 10px;
-    font-family: lato, Helvetica, sans-serif
+    font-family: lato, Helvetica, sans-serif;
+    font-size: larger;
 }
 
 .form-section h3 {
