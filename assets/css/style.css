@@ -184,16 +184,28 @@ nav ul li a {
 
 #history p {
     font-family: lato sans-serif;
+    margin-top: 3px;
     font-size: medium;
     font-weight: 400;
     color: white;
-    background-color: rgb(44, 42, 42, 0.7);
+    background-color: #021f0859;
     border-radius: 12px;
+    
+
 
 }
 
 #history img{
     border-radius: 1em;
+}
+
+#history ul{
+    background: #021f0859;
+    color: white;
+    margin: auto;
+    border-radius: 8px;
+    width: 98%;
+    margin-top: 3px;
 }
 
 
