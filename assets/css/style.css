@@ -136,13 +136,13 @@ nav ul li a {
 /*style images*/
 #gallery {
     width: 100%;
-    height: 100%;    
+    height: 100%;
     flex-wrap: wrap;
     display: block;
     margin-left: 15em;
     column-count: 1;
-    
-    
+
+
 
 }
 
@@ -287,22 +287,21 @@ nav ul li a {
 
 
 .form-section {
-    width: 350px;
+    width: 420px;
     height: 500px;
     box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
     margin: auto;
 }
 
-.form-section,
-.form-section > form {
+
+.form-section form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: space-between;
-    padding: 40px 100px 40px 20px;
+    padding: 20px;
     border-radius: 10px;
     font-family: lato, Helvetica, sans-serif;
-    font-size: larger;
+    font-size: 26px;
 }
 
 .form-section h3 {
