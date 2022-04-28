@@ -263,16 +263,20 @@ h2 {
 }
 
 .form-section,
-.form-section>form {
-    position: flex;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.form-section > form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px 100px 40px 20px;
+    border-radius: 10px;
+    font-family: lato, Helvetica, sans-serif
 }
 
 .form-section h3 {
     font-size: large;
-    font-family: roboto sans-serif;
+    font-family: lato sans-serif;
+    color: darkgoldenrod;
 }
 
 
