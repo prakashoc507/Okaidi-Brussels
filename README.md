@@ -100,7 +100,7 @@ The person can be of any gender or age. For this i have designed my website with
 * I noticed a bug on each page that was identified as a lack of `max-width` on the `body` element, I have since set this to `1920px`
 * Social links in about us page wer below the background, later i discovered that it was happening not nesting social links properly nested in a div. And was solved accordingly.
 * Several times i was failing to position images at About Us page at center, later i solved it by setting margin to auto, and experimenting with width until the image positions into the center.  
-* All of my three pages Home, About us and Done now were going up by 25% as we navigate the page, later it was found that, that was happening because of the container was using min-heigh of 100% so later it was solved by setting min-height if 100vh.
+* All of my three pages Home, About us and Donate now were going up by 25% as we navigate the page, later it was found that, that was happening because of the container was using min-heigh of 100% so later it was solved by setting min-height if 100vh.
 * Any duplicate or unused selectors, classes, id's and elements have been removed
 * Any irrelevant space in between code has been removed
 
