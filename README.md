@@ -117,9 +117,10 @@ The person can be of any gender or age. For this i have designed my website with
 # TECHNOLOGIES USED
 
 * [Google](https://www.google.com)
-* [Facebook](https://www.facebook.com)
-* [Instagram](https://www.instagram.com)
-* [Twitter](https://www.twitter.com)
+* HTML 5
+* CSS3
+* GIT POD IDE
+* GOOGLE DEV TOOLS
 
 ## PROGRAMS USED
 
