@@ -26,6 +26,7 @@ The person can be of any gender or age. For this i have designed my website with
 - [UX/UI](#uxui)
   * [USERSTORIES](#user-stories)
 - [TESTING](#testing)
+[RESPONSIVENESS](#responsiveness)
   * [LIGHTHOUSE](#lighthouse)
   * [ACCESSIBILITY](#accessibility)
 - [SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
@@ -90,6 +91,9 @@ The person can be of any gender or age. For this i have designed my website with
 * As a user, I want to be able to learn something new.
 * As a user, I want to see images related to the subject`
 * I included a 'About US' link which includes multiple varied images.
+
+# RESPONSIVENESS 
+* I have added media query feature to make my site responsive so that my content would fit in any screen type the user is using.
 
 ## Lighthouse
 
