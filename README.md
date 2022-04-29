@@ -98,6 +98,71 @@ Wireframes for desktop and mobile devices click here
 * As a user, I want to see images related to the subject`
 * I included a 'About US' link which includes multiple varied images.
 
+## Lighthouse
+
+* I ran each page live through Chrome Lighthouse and received the following results with above of 93.0% across the site
+
+## SOLVED BUGS AND ERRORS
+
+* I noticed a bug on each page that was identified as a lack of `max-width` on the `body` element, I have since set this to `1920px`
+* Social links in about us page wer below the background, later i discovered that it was happening not nesting social links properly nested in a div. And was solved accordingly.
+*Several times i was failing to position images at about us page at center, later i solved it by setting margin to auto, and experimenting with width until the image positions into the center.  
+* All of my three pages Home, About us and Done now were going up by 25% as we navigate the page, later it was found that, that was happening because of the container was using min-heigh of 100% so later it was solved by setting min-height if 100vh.
+* Any duplicate or unused selectors, classes, id's and elements have been removed
+* Any irrelevant space in between code has been removed
+
+
+## UNSOLVED BUGS OR ERRORS
+* The background image for paragraph element in Home page is overflowing.
+
+
+## FUNCTIONALITY
+* All links have been hovered over and clicked on to ensure accessibility
+* All Social media links work correctly and open on a new tab
+* All images load on each page as intended
+
+# TECHNOLOGIES USED
+
+* [Google](https://www.google.com)
+* [Facebook](https://www.facebook.com)
+* [Instagram](https://www.instagram.com)
+* [Twitter](https://www.twitter.com)
+
+## PROGRAMS USED
+
+* GIT
+  * For version control, commiting and pushing to github
+* GITPOD
+  * The IDE used to code this website
+* GITHUB
+  * Used to store repositories, files and images pushed from gitpod
+* Am I Responsive
+  * Used to test responsiveness of the website at different screen sizes
+* CHROME Developer tools
+  * For checking compatibilty, troubleshooting and editing code
+* FONTAWESOME
+  * Used for the social media links in the footer of each page
+
+# DEPLOYMENT
+
+## REMOTE DEPLOYMENT:
+(Assuming you have already cloned or forked,)
+* This site was deployed using GitHub Pages with the following the steps:
+
+1. Click on the `Settings` icon at the top of page in the navigation bar
+2. Scroll down until you see `Github Pages`
+3. There will be a message box saying "Check it out here" Click on the link to take you to the next page
+4. Here you will be greated with a form, Choose the repository `Project-1`
+5. Choose the branch in the drop down box, in this case `MAIN`
+6. Choose the directory in the next drop down box, in this case `Root`
+7. Then click `Save`
+8. It may take a few moments for the site to publish, but once live, the box at the top of the page with the site name will turn green and have a `Green` tick to the left of the link to the live site
+9. Another way to find the live site is to navigate to settings, on the left menu click on `pages` and this will get you to the same point.
+
+
+
+
+
 
 
 
