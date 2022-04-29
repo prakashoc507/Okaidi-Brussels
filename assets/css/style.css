@@ -66,6 +66,10 @@
     text-decoration: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 h2 {
     font-family: lato, sans-serif;
     font-size: medium;
@@ -239,7 +243,7 @@ nav ul li a {
     text-decoration: none;
     color: #7e6a99;
     padding-right: 20px;
-    font-size: 18px;
+    font-size: 30px;
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 5px;
@@ -261,34 +265,7 @@ nav ul li a {
 
 }
 
-
-
-
-/*style collection button*/
-
-#collection {
-    background: linear-gradient(45deg, #87adfe, #ff77cd);
-    border-radius: 3px;
-    padding: 5px 10px;
-    box-sizing: border-box;
-    text-decoration: none;
-    color: #fff;
-    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
-    display: inline-block;
-    margin-left: 45%;
-
-}
-
-#collection a {
-    text-decoration: none;
-}
-
-#collection a:hover {
-    border-bottom: 1px solid #232d60;
-}
-
-/*signup details*/
-
+/* style signup form*/
 
 .form-section {
     width: 520px;
