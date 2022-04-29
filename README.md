@@ -26,7 +26,6 @@ The person can be of any gender or age. For this i have designed my website with
 - [UX/UI](#uxui)
   * [USERSTORIES](#user-stories)
 - [TESTING](#testing)
-  * [VALIDATORS](#validators)
   * [LIGHTHOUSE](#lighthouse)
   * [ACCESSIBILITY](#accessibility)
 - [SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
