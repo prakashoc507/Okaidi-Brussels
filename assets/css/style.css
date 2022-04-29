@@ -66,7 +66,7 @@
     text-decoration: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -171,7 +171,7 @@ nav ul li a {
     transform: scale(1.1);
 }
 
-#gallery .info{
+#gallery .info {
     font-family: sans-serif;
     font-size: larger;
     font-weight: 600;
@@ -179,7 +179,7 @@ nav ul li a {
     background: #e15050db;
     border-radius: 10cm;
     width: 67%;
-    text-align: center;   
+    text-align: center;
 
 }
 
@@ -292,7 +292,7 @@ nav ul li a {
     color: darkgoldenrod;
 }
 
-.subscribe-button{
+.subscribe-button {
     margin-top: 7px;
     height: 40px;
     font-size: 20px;
@@ -301,13 +301,13 @@ nav ul li a {
     border-radius: 15px;
 }
 
-#donation-box{
+#donation-box {
     height: 100px;
     border-radius: 10px;
     padding-bottom: 5px;
 }
 
-#frequency{
+#frequency {
     font-weight: 600;
     color: rgba(224, 81, 24, 0.973);
     font-family: Arial, Helvetica, sans-serif;
@@ -318,11 +318,82 @@ nav ul li a {
     color: rgba(230, 108, 51, 0.973);
     font-family: Arial, Helvetica, sans-serif;
 }
- .signup{
+
+.signup {
     font-weight: 600;
     color: rgba(230, 108, 51, 0.973);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
+/*for medium screen sizes*/
 
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin: left 30px;
+        margin-bottom: 20px;
+        line-height: 25px
+    }
+
+    .content {
+        height: 1100px;
+        margin: auto;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin: left 30px;
+        margin-bottom: 20px;
+        line-height: 25px
+    }
+
+    .content {
+        height: 1100px;
+        margin: auto;
+        width: 90%;
+    }
+
+/*for about us page*/
+    @media screen and (max-width: 1300px) {
+        #history img {
+            margin: auto;
+            width: 90%;
+        }
+
+        #gallery img {
+            margin: auto;
+            width :60%;
+            column: 1; 
+            float: left;
+        }
+    }
+
+    @media screen and (max-width: 950px) {
+        #history img {
+            margin: auto;
+            width: 90%;
+        }
+
+        #gallery img {
+            margin: auto;
+            width :60%;
+            column: 1; 
+            
+        }
+    }
+/*for Donate Page*/
+    @media screen and (max-width: 950px) {
+        .form-section{
+            width: 80%;
+            margin: auto;
+        }
+
+        }
