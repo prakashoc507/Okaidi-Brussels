@@ -63,6 +63,7 @@
     width: 200px;
     cursor: pointer;
     color: darkgoldenrod;
+    text-decoration: none;
 }
 
 h2 {

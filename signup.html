@@ -19,7 +19,7 @@
     <div class="container">
         <!--add navbar for logo and menu links-->
         <div class="navbar">
-            <h1 class="logo"> Petit <i class="fas fa-baby"></i></i><br> Clothing </h1>
+            <a href="index.html"><h1 class="logo"> Petit <i class="fas fa-baby"></i></i><br> Clothing </h1></a>
             <nav id="menu">
                 <ul>
                     <li>
@@ -38,7 +38,7 @@
 
         <section class="form-section">
 
-            <form method="post" class="signup-form" action="signup.html">
+            <form method="get" class="signup-form" action="signup.html">
 
                 <h1 class="signup">Sign Up To Donate..!!!</h1>
 
@@ -51,7 +51,7 @@
                 <label for="email">Email Address</label>
                 <input id="email" name="email" type="email" required class="text-input" placeholder="Email Address">
 
-                <p id="frequency">Donation Freaquency:</p>
+                <p id="frequency">Donation Frequency:</p>
                 <label for="daily">Daily</label>
                 <input type="radio" id="daily" name="basis_type" value="daily" required>
                 <label for="weekly">Weekly</label>
@@ -60,7 +60,8 @@
                 <input type="radio" id="monthly" name="basis_type" value="monthly" required>
 
                 <label for="description" id="donation">Donation Description:</label>
-                <input id="donation-box" name="description" type="text" required placeholder="Describe the type of your donation here..!!!">
+                <input id="donation-box" name="description" type="text" required
+                    placeholder="Describe the type of your donation here..!!!">
 
                 <input class="subscribe-button" type="submit" value="Subscribe">
 
