@@ -67,6 +67,19 @@ The person can be of any gender or age. For this i have designed my website with
 * As a user, i want the site to be informative.
 * As a user, i want to see the images or videos related to the title of site.
 
+## Wireframes
+Wireframes for desktop and mobile devices click here
+
+## Features of this site
+* The site consists of 3 pages Home, About us and Signup.
+* Each page are of same layout, Header, navbar,body with headings paragraphs, images and footer.
+* Layout and content
+ * The home page will have indroductory part with soothing background and with some motivational quotes, logo of the site and navigation links to different pages.
+ * The about us page will have information about the petit clothing organization, its motos motivating lines and reasons behind the existance of organizatiion.
+ * The donation page will have a form reauesting details of the donor like; name, last name, email address, freauencies of donation they want to make and description of donation box so that they can mention what clothes are they donating and for whom donation will be suitable for.
+ 
+
+
 
 
 
