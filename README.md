@@ -77,7 +77,30 @@ Wireframes for desktop and mobile devices click here
  * The home page will have indroductory part with soothing background and with some motivational quotes, logo of the site and navigation links to different pages.
  * The about us page will have information about the petit clothing organization, its motos motivating lines and reasons behind the existance of organizatiion.
  * The donation page will have a form reauesting details of the donor like; name, last name, email address, freauencies of donation they want to make and description of donation box so that they can mention what clothes are they donating and for whom donation will be suitable for.
- 
+ * Hover effects on social media helps user to where which topic are they going to click on.
+ * Solid border on the bottom of the link name will help user to identify user in which page of the site are they currenly in.
+ * The difference between darker background and brigh content mentioned in page brings definate ease and pleasure to the user.
+ * There are total of 7 images used for as background main image and clickable images.
+ * All of the images used are used appropriately according to the size of the image and has not been compressed nor pushed past pixel in order to preven image quality.
+ * The fonts used for my sites are lato, sans-serfi and Ariel-Helvitaca. Font lato is importated from google fonts.
+ * Icons for heading and social links are imported from font awesome.
+
+ # Testing
+ * As a user i want to understand the purpose of the site easily:
+    * As you click home page you will be welcomed with very appealing and eye soothing transparent yellow background along with it, beautiful motivational will greet you.
+* As a user, I want to easily understand the main purpose of the site`:
+    * Upon loading the home page, you will be greeted with a motivational quote the sites context, "A man's true wealth is the good he does for the other people".
+* As a user, I want to be able to navigate the site with an easy to see and read navbar:
+    * This was fulfilled with clear to read wording, only four links with an underline for the page currently viewing
+* As a user, I want the site to be attractive:
+    * Made sure the visual effects, links, wording and images are appealing to the eye with the use of different shades of the same colour with brighter images and text
+* As a user, I want to be able to learn something new.
+* As a user, I want to see images related to the subject`
+* I included a 'About US' link which includes multiple varied images.
+
+
+
+
 
 
 
